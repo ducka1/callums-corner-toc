@@ -1,2 +1,2 @@
 # callums-corner-toc
-tic tac = callums corner
+callums corner = tic tac
