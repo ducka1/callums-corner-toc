@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 333px);
+    grid-template-rows: repeat(3, 333px);
+}
+
+.btn, #container {
+    font-size: 99px;
+}
+
+#container, #text {
+    text-align: center;
+    place-content: center;
+    padding: 33px;
+}
