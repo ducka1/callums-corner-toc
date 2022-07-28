@@ -14,16 +14,26 @@
         <h3>(Tic-Tac-Toe)</h3>
         <h3>by Callum Adams</h3>
     </div>
-    <div id="container">
-        <button data-pos="0" class="btn"><div class="square"></div></button>
-        <button data-pos="1" class="btn"><div class="square"></div></button>
-        <button data-pos="2" class="btn"><div class="square"></div></button>
-        <button data-pos="3" class="btn"><div class="square"></div></button>
-        <button data-pos="4" class="btn"><div class="square"></div></button>
-        <button data-pos="5" class="btn"><div class="square"></div></button>
-        <button data-pos="6" class="btn"><div class="square"></div></button>
-        <button data-pos="7" class="btn"><div class="square"></div></button>
-        <button data-pos="8" class="btn"><div class="square"></div></button>
+    <div id="wrapper">
+        <form id="player-names" action="#">
+            <label for="player1">Player 1 name (X)</label>
+            <input id="player1" type="text" placeholder="Player 1">
+            <label for="player2">Player 2 name (O)</label>
+            <input id="player2" type="text" placeholder="Player 2">
+            <button id="new-game" type="submit">Start new game</button>
+        </form>
+        <h1 id="game-status"></h1>
+        <div id="container">
+            <button data-pos="0" class="btn"><div class="square"></div></button>
+            <button data-pos="1" class="btn"><div class="square"></div></button>
+            <button data-pos="2" class="btn"><div class="square"></div></button>
+            <button data-pos="3" class="btn"><div class="square"></div></button>
+            <button data-pos="4" class="btn"><div class="square"></div></button>
+            <button data-pos="5" class="btn"><div class="square"></div></button>
+            <button data-pos="6" class="btn"><div class="square"></div></button>
+            <button data-pos="7" class="btn"><div class="square"></div></button>
+            <button data-pos="8" class="btn"><div class="square"></div></button>
+        </div>
     </div>
 </body>
 </html>

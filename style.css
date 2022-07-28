@@ -6,16 +6,46 @@
 
 #container {
     display: grid;
-    grid-template-columns: repeat(3, 333px);
-    grid-template-rows: repeat(3, 333px);
-}
-
-.btn, #container {
+    grid-template-columns: repeat(3, 303px);
+    grid-template-rows: repeat(3, 303px);
     font-size: 99px;
+    grid-row: span 2;
 }
 
-#container, #text {
+.btn {
+    font-size: 222px;
+    border: none;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: gainsboro;
+}
+
+
+#container, #text, #game-status {
     text-align: center;
     place-content: center;
     padding: 33px;
+}
+
+#player-names {
+    display: grid;
+    place-items: center;
+    font-size: 33px;
+    grid-row: span 2;
+}
+
+#player-names input, #player-names button {
+    font-size: 33px;
+    width: 222px;
+    padding: 6px;
+    margin-bottom: 33px;
+}
+
+#wrapper {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 5fr;
 }
