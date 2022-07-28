@@ -30,6 +30,10 @@
     padding: 33px;
 }
 
+#game-status, #container {
+    margin-right: 390px;
+}
+
 #player-names {
     display: grid;
     place-items: center;

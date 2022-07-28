@@ -8,6 +8,10 @@ const gameBoard = (() => {
     };
 })();
 
+const cpu = (() => {
+    // wip
+})();
+
 const Player = (name, mark) => {
     
 
